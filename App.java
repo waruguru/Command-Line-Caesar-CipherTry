@@ -6,7 +6,16 @@ public class App {
         Console console = System.console();
 
         System.out.println("Please Enter the message to Encrypt");
-        String textEncrypt = System.console();//lets the user input
+        String text = console.readLine();//lets the user input
+
+        String encryptedText;
+        String decryptedText;
+        //declarig an array to hold the encrypting key
+        System.out.println("Kindly enter the encrypting key you would love to use:");
+        Integer encryptingKey = console.readLine() ;
+
+
+
 
 
     }
