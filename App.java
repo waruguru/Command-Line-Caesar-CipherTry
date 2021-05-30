@@ -9,16 +9,16 @@ public class App {
         System.out.println("Please Enter the message to Encrypt");
         String text = console.readLine();//lets the user input
 //        text[] allText = {a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
-        public boolean checkType (text.checkType){//public method since it is available to everyone
-            if (text !=string){
-                System.out.println("Please Enter a string ");
-
-            }
-            else{
-                System.out.println("You have entered correct datatype:");
-            }
-
-        }
+//        public boolean checkType (text.checkType){//public method since it is available to everyone
+//            if (text !=string){
+//                System.out.println("Please Enter a string ");
+//
+//            }
+//            else{
+//                System.out.println("You have entered correct datatype:");
+//            }
+//
+//        }
 
         String encryptedText;
 
@@ -27,11 +27,18 @@ public class App {
         String encryptingKey = console.readLine() ;
         Integer integerEncryptingKey = Integer.parseInt(encryptingKey);
 
-
+        //checking if data types are correct.
+        for(Integer key :encryptingKey && String message:text){
+            if(key=integer&& text=String){
+                System.out.println("Your inputs are correct that is datatypes")
+            }
+            else if (key=Integer||text=String){
+                System.out.println("Please recheck the data type, Key should be a whole number and text should be a string");
+            }
+        }
         System.out.println("You are using the encrypting key" + integerEncryptingKey);
         //A string to store the decrypting key;
         Integer decryptingKey = integerEncryptingKey;
-
 
         String decryptedText;
         System.out.println("Your decrypted message is:"+decryptedText)
