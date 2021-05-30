@@ -16,7 +16,8 @@ public class App {
         Integer integerEncryptingKey = Integer.parseInt(encryptingKey);
 
 
-        System.out.println("You are using the encrypting key");
+        System.out.println("You are using the encrypting key" + integerEncryptingKey);
+        //A string to store the decrypting key;
 
 
 
