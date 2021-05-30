@@ -18,6 +18,11 @@ public class App {
 
         System.out.println("You are using the encrypting key" + integerEncryptingKey);
         //A string to store the decrypting key;
+        Integer decryptingKey = integerEncryptingKey;
+
+
+        String decryptedText;
+        System.out.println("Your decrypted message is:"+decryptedText)
 
 
 
