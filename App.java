@@ -12,7 +12,11 @@ public class App {
         String decryptedText;
         //declarig an array to hold the encrypting key
         System.out.println("Kindly enter the encrypting key you would love to use:");
-        Integer encryptingKey = console.readLine() ;
+        String encryptingKey = console.readLine() ;
+        Integer integerEncryptingKey = Integer.parseInt(encryptingKey);
+
+
+        System.out.println("You are using the encrypting key");
 
 
 
